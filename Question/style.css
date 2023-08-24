@@ -1,0 +1,75 @@
+.main{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: cursive;
+    color: rgb(221, 160, 80);
+}
+#con1,#con2,#con3{
+  background-color: rgb(245, 144, 20);
+    width: 600PX;
+    height: 75PX;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#myhr,#myhr1,#myhr2{
+    opacity: 0;
+}
+#myhr.show{
+    opacity: 1;
+}
+#myhr1.show{
+    opacity: 1;
+}
+#myhr2.show{
+    opacity: 1;
+}
+#con1.show{
+    height: 130px;
+}
+#con2.show{
+    height: 130px;
+}
+#con3.show{
+    height: 130px;
+}
+#a1.show{
+    opacity: 1;
+}
+#a2.show{
+    opacity: 1;
+}
+#a3.show{
+    opacity: 1;
+}
+#a1,#a2,#a3{
+    margin-left: 10px;
+    opacity: 0;
+}
+.q1 ,.q2, .q3{
+  
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+
+
+#b1,#b2,#b3{
+    height: 30px;
+    width: 50px;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: aliceblue;
+    background-color: black;
+    margin-left: 350px;
+}

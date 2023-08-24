@@ -1,0 +1,22 @@
+.container{
+  
+    text-align: center;
+    margin: 245px;
+}
+.container h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.action{
+    margin-top: 30px;
+}
+.btn{
+    width:100px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 9px;
+    border: 2px solid black;
+}

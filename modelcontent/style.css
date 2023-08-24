@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #edeef6;
+    display: flex;
+    background-image: url(/modelcontent/ocean-3605547_960_720.webp);
+    background-position: center;
+    background-size: cover;
+    filter: blur(7px);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.box{
+
+    border-radius: 5px;
+    background-color:bisque;
+    width: 580px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rbg(0,0,0,0.3);
+    padding: 10px 25px;
+    color: #ffff;
+
+}
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    display: flex  ;
+    width: 100vw;
+    background-color: rbga(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+.modal-container.show{
+    pointer-events: auto;
+    opacity: 1;
+
+}
+.body.show{
+    filter: blur(0px);
+}
+
+.modal{
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rbg(0,0,0,0.3);
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+
+}
+.modal h1{
+    margin: 0;
+}
+.modal p{
+    font-size: 14px;
+    opacity: 0.7;
+}
